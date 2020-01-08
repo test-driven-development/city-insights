@@ -6,6 +6,7 @@ import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
 
 import { Route, Link } from 'react-router-dom';
+import {PageTitle} from '@city-insights/ui-header';
 
 export const App = () => {
   /*
@@ -17,6 +18,7 @@ export const App = () => {
     <div className="app">
       <header className="flex">
         <Logo width="75" height="75" />
+        <PageTitle/>
         <h1>Welcome to my-site!</h1>
       </header>
       <main>
